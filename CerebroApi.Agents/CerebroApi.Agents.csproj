@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CerebroApi.Commons\CerebroApi.Commons.csproj" />
+    <ProjectReference Include="..\CerebroApi.Infraestructure\CerebroApi.Infraestructure.csproj" />
+    <ProjectReference Include="..\CerebroApi.Resources\CerebroApi.Resources.csproj" />
+    <ProjectReference Include="..\Models\CerebroApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>
